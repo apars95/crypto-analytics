@@ -1,0 +1,5 @@
+/client/.DS_store
+/client/node_modules
+/server/.DS_store
+/server/.env
+/server/node_modules

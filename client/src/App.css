@@ -1,0 +1,438 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Dashboard Page Rule Sets */
+
+.dashboard-main h1 {
+  font-size: 2rem;
+  text-align: left;
+  white-space: nowrap;
+  margin-bottom: 2%;
+  color: #5271ff;
+}
+
+@media screen and (max-width: 960px) {
+  .dashboard-main h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .dashboard-main h1 {
+    font-size: 1.2rem;
+  }
+  .nameDiv p.symbol {
+    display: none;
+  }
+}
+
+/* PageError Page Rule Sets */
+
+div.pageError {
+  width: 100%;
+  height: 100%;
+}
+
+.pageError div.PageError-wrapper {
+  margin: auto;
+  width: 85%;
+}
+
+.PageError-page404Error {
+  font-size: 250px;
+  color: #1d76d5b5;
+}
+
+.pageError .PageError-wrapper h1 {
+  color: #4b67e0;
+  text-align: center;
+  margin: 8% 0;
+  font-size: 2.5rem;
+}
+
+.PageError-wrapper a {
+  text-decoration: none;
+}
+
+.PageError-wrapper button:hover {
+  cursor: pointer;
+  background-color: #282c34;
+}
+
+.PageError-wrapper button {
+  display: block;
+  border-radius: 30px;
+  margin: 10% auto;
+  background-color: black;
+  color: white;
+  padding: 10px 32px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 960px) {
+  .pageError .PageError-wrapper h1 {
+    font-size: 2rem;
+  }
+  .PageError-page404Error {
+    font-size: 200px;
+  }
+
+  .Page-Error-wrapper button {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .pageError .PageError-wrapper h1 {
+    font-size: 1.5rem;
+  }
+  .PageError-page404Error {
+    font-size: 150px;
+  }
+
+  .PageError-wrapper button {
+    font-size: 0.75rem;
+  }
+}
+
+/* FAQ Page Rule Sets */
+
+section.faq-about {
+  width: 80vw;
+  margin: auto;
+}
+
+article.faq-about {
+  text-align: left;
+  margin: 8% auto;
+}
+
+article.faq-about span {
+  color: #5271ff;
+}
+
+section.faq-about h1 {
+  font-size: 1.5rem;
+  color: #5271ff;
+  margin-bottom: 1%;
+}
+
+section.faq-about p {
+  width: 80%;
+}
+
+section.faq-about a {
+  text-decoration: none;
+}
+
+section.faq-about a:visited {
+  color: inherit;
+}
+
+section.faq-about a:hover {
+  cursor: pointer;
+  color: #5271ff;
+}
+
+@media screen and (max-width: 576px) {
+  section.faq-about p {
+    font-size: 0.8rem;
+  }
+  section.faq-about h1 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Coin Page Rule Sets */
+
+div.bitcoinWrapper {
+  margin: auto;
+  width: 100vw;
+}
+
+div.bitcoinContent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: (130px, auto);
+  width: 80%;
+  height: 80vh;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.bitcoinContent div.fng {
+  grid-column: 1/2;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.bitcoinContent div.bitcoinPriceContainer {
+  grid-column: 2/6;
+  border: 2px solid #5272ff5a;
+  border-radius: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 600px;
+}
+
+div.bitcoinHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bitcoinPriceContainer div.bitcoinTitle {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.bitcoinTitle img {
+  width: 35px;
+  object-fit: contain;
+}
+
+.bitcoinTitle p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 1%;
+}
+
+.bitcoinHeader div.bitcoinPrice {
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+  margin-right: 5%;
+}
+
+.bitcoinPrice .priceTag {
+  text-align: right;
+  margin-top: 9.5%;
+  margin-bottom: 1%;
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.745);
+}
+
+.bitcoinPrice .price {
+  font-size: 2rem;
+  font-weight: bold;
+  width: 188px;
+  text-align: right;
+}
+
+.bitcoinContent div.bitcoinDataContainer {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  grid-column: 2/6;
+  height: 400px;
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.bitcoinDataContainer div.priceChange {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.bitcoinDataContainer div.priceChangePercent {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.bitcoinDataContainer div.priceHigh {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.bitcoinDataContainer div.priceLow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.bitcoinDataContainer hr {
+  border-color: #3396ff6e;
+}
+.title span {
+  color: #5271ff;
+}
+
+.bitcoinPrice p.price {
+  color: #5271ff;
+}
+
+.priceChangePercent p.valuePositive {
+  color: #68f000;
+}
+
+.priceChangePercent p.valueNegative {
+  color: #ff0000;
+}
+
+.priceChange p.valuePositive {
+  color: #68f000;
+}
+
+.priceChange p.valueNegative {
+  color: #ff0000;
+}
+
+.priceChange p.valuePositive {
+  color: #68f000;
+}
+
+.priceChange p.valueNegative {
+  color: #ff0000;
+}
+
+@media screen and (max-width: 1200px) {
+  .bitcoinPrice .price {
+    font-size: 1.5rem;
+  }
+  .bitcoinTitle img {
+    width: 25px;
+  }
+
+  .bitcoinTitle p {
+    font-size: 1.5rem;
+  }
+
+  p.title {
+    font-size: 1.1rem;
+  }
+
+  p.value {
+    font-size: 1.1rem;
+  }
+
+  p.valuePositive {
+    font-size: 1.1rem;
+  }
+
+  p.valueNegative {
+    font-size: 1.1rem;
+  }
+  .bitcoinContent div.bitcoinDataContainer {
+    height: 333px;
+    margin-top: 10%;
+  }
+  .bitcoinContent div.bitcoinPriceContainer {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .bitcoinPrice .price {
+    font-size: 1.3rem;
+  }
+  .bitcoinTitle img {
+    width: 20px;
+  }
+
+  .bitcoinTitle p {
+    font-size: 1.3rem;
+  }
+
+  p.title {
+    font-size: 1rem;
+  }
+
+  p.value {
+    font-size: 1rem;
+  }
+
+  p.valuePositive {
+    font-size: 1rem;
+  }
+
+  p.valueNegative {
+    font-size: 1rem;
+  }
+  .bitcoinContent div.bitcoinDataContainer {
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .bitcoinPrice .price {
+    font-size: 1rem;
+  }
+  .bitcoinPrice p.priceTag {
+    font-size: 0.65rem;
+  }
+  .bitcoinTitle img {
+    width: 15px;
+  }
+
+  .bitcoinTitle p {
+    font-size: 1rem;
+  }
+
+  p.title {
+    font-size: 0.8rem;
+  }
+
+  p.value {
+    font-size: 0.8rem;
+  }
+
+  p.valuePositive {
+    font-size: 0.8rem;
+  }
+
+  p.valueNegative {
+    font-size: 0.8rem;
+  }
+  .bitcoinContent div.bitcoinDataContainer {
+    margin-top: 20%;
+  }
+  .bitcoinContent div.bitcoinDataContainer {
+    height: 230px;
+    margin-top: 15%;
+  }
+  .bitcoinContent div.bitcoinPriceContainer {
+    height: 350px;
+  }
+}

@@ -1,0 +1,127 @@
+div.dashboardTable {
+  overflow-x: auto;
+}
+
+div.dashboard-main {
+  width: 90vw;
+  margin: 50px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5%;
+  margin: auto;
+}
+
+table .tableHead {
+  color: #5271ff;
+  padding: 100px;
+}
+th {
+  height: 65px;
+}
+td {
+  height: 65px;
+  vertical-align: middle;
+}
+
+td.name {
+  width: 35%;
+}
+
+div.nameDiv {
+  display: flex;
+  gap: 5%;
+  margin-left: 8%;
+}
+
+.nameDiv p {
+  display: flex;
+  align-items: center;
+}
+
+td.name img {
+  width: 25px;
+  object-fit: contain;
+}
+
+th.coin {
+  text-align: left;
+  margin-left: 50px;
+}
+
+th.coin p {
+  margin-left: 8%;
+}
+td.price {
+  text-align: right;
+  color: #5271ff;
+}
+th.price {
+  text-align: right;
+}
+td.marketCap {
+  text-align: right;
+}
+th.marketCap {
+  text-align: right;
+}
+td.totalVolume {
+  text-align: right;
+}
+th.totalVolume {
+  text-align: right;
+}
+td.dailyChange {
+  text-align: right;
+}
+th.dailyChange {
+  text-align: right;
+}
+
+div.circulatingSupply {
+  justify-content: end;
+  gap: 5%;
+  display: flex;
+}
+td.circulatingSupply {
+  text-align: right;
+}
+th.circulatingSupply {
+  text-align: right;
+}
+td.num {
+  text-align: center;
+}
+
+th.num {
+  text-align: center;
+}
+
+table tr {
+  border-bottom: 1px solid #e8e6e6d0;
+  font-size: 0.9rem;
+}
+
+table tr.tableHead {
+  border-top: 1px solid #e8e6e6d0;
+}
+
+.positiveReturn {
+  color: green;
+}
+
+.negativeReturn {
+  color: red;
+}
+
+.nameDiv p.symbol {
+  font-size: 0.75rem;
+  color: #7f8083;
+}
+
+tbody tr:hover {
+  background-color: #7f808314;
+  cursor: pointer;
+}

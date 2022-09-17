@@ -1,0 +1,269 @@
+div.fngMeter {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 600px;
+}
+
+div.fngMeter p.mainTitle {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #5271ff;
+}
+
+div.fngContainer {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: column;
+  width: 15%;
+  height: 500px;
+}
+
+.fngContainer span.title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #5271ff;
+}
+.fngMeter span.titleFear {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ff4917;
+}
+.fngMeter span.titleGreed {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #68f000;
+}
+
+.fngContainer div.EF1 {
+  background-color: #ff0000;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 4.76%;
+}
+.fngContainer div.EF1On {
+  background-color: #ff0000;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.EF2 {
+  background-color: #ff0000;
+  height: 4.76%;
+}
+.fngContainer div.EF2On {
+  background-color: #ff0000;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.EF3 {
+  background-color: #ff0000;
+  height: 4.76%;
+}
+.fngContainer div.EF3On {
+  background-color: #ff0000;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.EF4 {
+  background-color: #ff0000;
+  height: 4.76%;
+}
+.fngContainer div.EF4On {
+  background-color: #ff0000;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.EF5 {
+  background-color: #ff4917;
+  height: 4.76%;
+}
+.fngContainer div.EF5On {
+  background-color: #ff4917;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.F1 {
+  background-color: #ff4917;
+  height: 4.76%;
+}
+.fngContainer div.F1On {
+  background-color: #ff4917;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.F2 {
+  background-color: #ff4917;
+  height: 4.76%;
+}
+.fngContainer div.F2On {
+  background-color: #ff4917;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.F3 {
+  background-color: #ff4917;
+  height: 4.76%;
+}
+.fngContainer div.F3On {
+  background-color: #ff4917;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.F4 {
+  background-color: #ffa200;
+  height: 4.76%;
+}
+.fngContainer div.F4On {
+  background-color: #ffa200;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.F5 {
+  background-color: #ffa200;
+  height: 4.76%;
+}
+.fngContainer div.F5On {
+  background-color: #ffa200;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.N1 {
+  background-color: #ffa200;
+  height: 4.76%;
+}
+.fngContainer div.N1On {
+  background-color: #ffa200;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.G1 {
+  background-color: #ffa200;
+  height: 4.76%;
+}
+.fngContainer div.G1On {
+  background-color: #ffa200;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.G2 {
+  background-color: #acd200;
+  height: 4.76%;
+}
+.fngContainer div.G2On {
+  background-color: #acd200;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.G3 {
+  background-color: #acd200;
+  height: 4.76%;
+}
+.fngContainer div.G3On {
+  background-color: #acd200;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.G4 {
+  background-color: #acd200;
+  height: 4.76%;
+}
+.fngContainer div.G4On {
+  background-color: #acd200;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.G5 {
+  background-color: #acd200;
+  height: 4.76%;
+}
+.fngContainer div.G5On {
+  background-color: #acd200;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.EG1 {
+  background-color: #68f000;
+  height: 4.76%;
+}
+.fngContainer div.EG1On {
+  background-color: #68f000;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.EG2 {
+  background-color: #68f000;
+  height: 4.76%;
+}
+.fngContainer div.EG2On {
+  background-color: #68f000;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.EG3 {
+  background-color: #68f000;
+  height: 4.76%;
+}
+.fngContainer div.EG3On {
+  background-color: #68f000;
+  border-bottom: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.EG4 {
+  background-color: #68f000;
+  height: 4.76%;
+}
+.fngContainer div.EG4On {
+  background-color: #68f000;
+  border-top: solid 5px #5271ff;
+  height: 4.76%;
+}
+.fngContainer div.EG5 {
+  background-color: #68f000;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 4.76%;
+}
+@media screen and (max-width: 1200px) {
+  div.fngMeter {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  div.fngMeter p.mainTitle {
+    font-size: 0.8rem;
+  }
+  .fngMeter span.now {
+    font-size: 0.9rem;
+  }
+  .fngMeter span.titleFear {
+    font-size: 0.9rem;
+  }
+  .fngMeter span.titleGreed {
+    font-size: 0.9rem;
+  }
+  p.value {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 575px) {
+  div.fngMeter p.mainTitle {
+    font-size: 0.7rem;
+  }
+  .fngMeter span.now {
+    font-size: 0.7rem;
+  }
+  .fngMeter span.titleFear {
+    font-size: 0.7rem;
+  }
+  .fngMeter span.titleGreed {
+    font-size: 0.7rem;
+  }
+  p.value {
+    font-size: 0.7rem;
+  }
+}
